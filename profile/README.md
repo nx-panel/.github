@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/304456640?s=200&v=4" width="120" alt="Nexora">
   <h1>Nexora VPN</h1>
-  <p><strong>A multi-node VPN control plane for modern proxy protocols.</strong></p>
+  <p><strong>A multi-node VPN control panel for modern proxy protocols.</strong></p>
   <p>One panel, any number of nodes, 20+ protocols, and subscriptions your clients already understand.</p>
 </div>
 
@@ -60,7 +60,7 @@ Per-user traffic accounting covers every user-carrying inbound **and** the WireG
 | | Panel | Node |
 |---|---|---|
 | Binary | `nexora-panel` — Linux (amd64, arm64, armv5/v6/v7, 386, s390x, riscv64) and Windows (amd64, arm64) | `nexora-node` — Linux (amd64, arm64, armv5/v6/v7, 386, s390x, riscv64) |
-| Docker | `ghcr.io/nexora-vpn/nexora-panel` (amd64, arm64) | `ghcr.io/nexora-vpn/nexora-node` (amd64, arm64) |
+| Docker | `ghcr.io/nexora-vpn/panel` (amd64, arm64) | `ghcr.io/nexora-vpn/node` (amd64, arm64) |
 | Service | systemd unit included · web UI and API on port `2095` | systemd unit included · control API on port `62050`, mTLS only — the Node accepts the Panel's client certificate and nothing else; firewall the port to the Panel's address |
 | State | SQLite file by default, PostgreSQL optional | No database — only its certificates and a small cache on disk |
 

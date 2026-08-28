@@ -1,0 +1,69 @@
+name: Feature request
+description: Suggest something Nexora should be able to do
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lead with the problem rather than the solution. A described problem can
+        be designed for; a described dropdown is already a design, and often not
+        the one that fits.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Nexora
+      options:
+        - Panel — admin UI
+        - Panel — API, webhooks or integrations
+        - Panel — users, subscriptions or resellers
+        - Node — protocols, routing or the engine
+        - Fleet management — templates, pools, node operations
+        - Installers, packaging or deployment
+        - Documentation
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: >-
+        What are you trying to do, and what stops you today? Concrete beats
+        general — how many users, how many nodes, how often this comes up.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like to happen
+      description: >-
+        Optional. If you already have a shape in mind, describe it — but the
+        problem above is the part that matters.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you do instead today
+      description: >-
+        The workaround you are living with, or the other tool you use for this.
+        It says a lot about how much a feature would actually be worth.
+
+  - type: input
+    id: protocol-clients
+    attributes:
+      label: If you are asking for another protocol, which clients must it reach
+      description: >-
+        Optional. Naming the clients your users actually run says more about the
+        request than the protocol name alone.
+      placeholder: "e.g. the stock iOS client my users already have"
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this is not one of them.
+          required: true

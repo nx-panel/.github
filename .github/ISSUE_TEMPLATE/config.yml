@@ -1,0 +1,15 @@
+# Nexora's source repositories are private, so blank issues stay enabled: the
+# forms above cover the common cases, but this tracker is the only public place
+# to reach the project and a report that fits none of them should still land.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/Nexora-VPN/.github/security/advisories/new
+    about: >-
+      Privately, never as an issue — an issue is public from the moment it is
+      created. This form is the intake for every Nexora component.
+  - name: Getting help
+    url: https://github.com/Nexora-VPN/.github/blob/main/SUPPORT.md
+    about: >-
+      Where each kind of question goes, what to include, and the things that
+      usually turn out not to be bugs.

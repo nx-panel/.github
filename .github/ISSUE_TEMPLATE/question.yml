@@ -1,0 +1,35 @@
+name: Question
+description: Ask how to install, configure or use Nexora
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read [SUPPORT.md](https://github.com/Nexora-VPN/.github/blob/main/SUPPORT.md)
+        first — it covers the handful of things that turn out not to be bugs,
+        including a panel that returns 404 for everything, a node stuck offline,
+        and a panel you have locked yourself out of.
+
+        **Redact secrets** from anything you paste: subscription URLs, install
+        and setup tokens, licence keys and database DSNs are all credentials, and
+        this issue is public.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you are trying to do, and where you got stuck.
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: "`nexora-panel version` and, if a node is involved, `nexora-node version`."
+      placeholder: "panel v1.2.3, node v1.1.0"
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you have tried
