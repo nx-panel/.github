@@ -1,11 +1,11 @@
 <!--
-Nexora's Panel and Node source is private, so pull requests are only possible on
-the organisation repositories. If you have a fix for the Panel or the Node,
+NX's Panel and Node source is private, so pull requests are only possible on
+the public repositories. If you have a fix for the Panel or the Node,
 describe the cause and the change in an issue instead — it gets credited when it
 ships. See CONTRIBUTING.md.
 
 If this fixes a security vulnerability, do not open it here. Go to
-https://github.com/Nexora-VPN/.github/security/advisories/new
+https://github.com/nx-panel/.github/security/advisories/new
 -->
 
 ## What this changes

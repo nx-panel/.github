@@ -1,13 +1,13 @@
 # Security policy
 
-Nexora sits between operators and their users' traffic, so a vulnerability here
+NX sits between operators and their users' traffic, so a vulnerability here
 is rarely cosmetic. Reports are welcome and taken seriously.
 
 ## Reporting a vulnerability
 
-**[Open a private advisory on this repository.](https://github.com/Nexora-VPN/.github/security/advisories/new)**
+**[Open a private advisory on this repository.](https://github.com/nx-panel/.github/security/advisories/new)**
 
-That one form covers **every** Nexora component — Panel, Node, the installers,
+That one form covers **every** NX component — Panel, Node, the installers,
 the container images and the subscription pages. Reporting it here rather than
 anywhere else keeps the report private until a fix exists, and keeps it that way
 even once the product repositories are opened up.
@@ -23,7 +23,7 @@ that you have a security report and how to reach you privately — no details.
 
 The more of this you have, the faster it moves:
 
-- The component and version — `nexora-panel version`, `nexora-node version`, or
+- The component and version — `nx-panel version`, `nx-node version`, or
   the image tag.
 - What an attacker gains: read another user's subscription, take over an admin
   session, reach a node without the Panel's certificate, and so on.
@@ -48,7 +48,7 @@ otherwise.
 
 ## Scope
 
-**In scope** — anything that breaks one of the boundaries Nexora is built on:
+**In scope** — anything that breaks one of the boundaries NX is built on:
 
 | Boundary | What breaking it looks like |
 | --- | --- |
@@ -65,9 +65,9 @@ operator's data in a shared deployment.
 
 **Out of scope:**
 
-- Findings in a third-party component that Nexora merely bundles — report those
-  to that project directly. If the vulnerability is in *how Nexora uses* the
-  component, or in Nexora's own handling around it, that is ours and we want it.
+- Findings in a third-party component that NX merely bundles — report those
+  to that project directly. If the vulnerability is in *how NX uses* the
+  component, or in NX's own handling around it, that is ours and we want it.
 - Denial of service by sheer volume, and resource exhaustion that any operator
   could cause on their own server.
 - Missing hardening headers, cookie flags or TLS options with no demonstrated

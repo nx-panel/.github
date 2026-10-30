@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for wanting to help. Read this first, because Nexora is shaped unusually:
+Thanks for wanting to help. Read this first, because NX is shaped unusually:
 **the Panel and Node source is not public**, so most contributions arrive as
 issues rather than as pull requests.
 
@@ -8,13 +8,13 @@ issues rather than as pull requests.
 
 | | Where |
 | --- | --- |
-| Bug reports and feature requests, for any component | [This repository's issues](https://github.com/Nexora-VPN/.github/issues/new/choose) |
-| Questions about using Nexora | [SUPPORT.md](SUPPORT.md) |
-| Security vulnerabilities | [A private advisory](https://github.com/Nexora-VPN/.github/security/advisories/new) — never an issue. See [SECURITY.md](SECURITY.md) |
+| Bug reports and feature requests, for any component | [This repository's issues](https://github.com/nx-panel/.github/issues/new/choose) |
+| Questions about using NX | [SUPPORT.md](SUPPORT.md) |
+| Security vulnerabilities | [A private advisory](https://github.com/nx-panel/.github/security/advisories/new) — never an issue. See [SECURITY.md](SECURITY.md) |
 | Fixes to the organisation files here | A pull request on this repository |
 
-Pull requests against the Panel or the Node cannot be accepted, because there is
-no public repository to open them on. That is not a judgement on the patch. If
+Pull requests against the Panel or the Node cannot be accepted, because their
+source is not public. That is not a judgement on the patch. If
 you have written a fix, describe it in an issue — a clear description of the
 cause and the change is genuinely useful, and it gets credited when it ships.
 
@@ -57,7 +57,7 @@ which language and which screen or page it belongs to.
 ## Pull requests on this repository
 
 Only the organisation files live here, but the same conventions apply as
-everywhere else in Nexora:
+everywhere else in NX:
 
 - Commit subjects are lowercase and use an area prefix where one fits —
   `docs:`, `ci:`, `security:`. Say what changed, not that something changed.

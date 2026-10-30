@@ -1,11 +1,11 @@
 name: Question
-description: Ask how to install, configure or use Nexora
+description: Ask how to install, configure or use NX
 labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
-        Read [SUPPORT.md](https://github.com/Nexora-VPN/.github/blob/main/SUPPORT.md)
+        Read [SUPPORT.md](https://github.com/nx-panel/.github/blob/main/SUPPORT.md)
         first — it covers the handful of things that turn out not to be bugs,
         including a panel that returns 404 for everything, a node stuck offline,
         and a panel you have locked yourself out of.
@@ -26,7 +26,7 @@ body:
     id: versions
     attributes:
       label: Versions
-      description: "`nexora-panel version` and, if a node is involved, `nexora-node version`."
+      description: "`nx-panel version` and, if a node is involved, `nx-node version`."
       placeholder: "panel v1.2.3, node v1.1.0"
 
   - type: textarea
