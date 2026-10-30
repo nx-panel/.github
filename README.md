@@ -11,9 +11,9 @@ Organisation-level files for [NX](https://github.com/nx-panel). GitHub treats a 
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Issue forms — *Bug report*, *Feature request* and *Question* — plus `config.yml`, which adds the security and support links to the "new issue" chooser and keeps blank issues enabled. |
 | [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) | Pull request checklist. |
 
-The Panel's and the Node's source is private; their public repositories, [`panel`](https://github.com/nx-panel/panel) and [`node`](https://github.com/nx-panel/node), hold the releases, images, installer and documentation. **This repository's [issue tracker](https://github.com/nx-panel/.github/issues) is the public place to report Panel and Node bugs**, and its security advisories are the single private intake for vulnerabilities in any component. Private vulnerability reporting is enabled here for that reason; keep it on.
+The Panel's and the Node's source is private; their public repositories, [`panel`](https://github.com/nx-panel/panel) and [`node`](https://github.com/nx-panel/node), hold the releases, images, installer and documentation. **Bug reports, feature requests and questions go to the issues of `panel` and `node`**, through the forms in this repository. This repository has no issues of its own; its security advisories are the single private intake for vulnerabilities in any component. Private vulnerability reporting is enabled here for that reason; keep it on.
 
-`panel` and `node` are public now, and reports can be moved there: `SUPPORT.md`, `CONTRIBUTING.md` and `SECURITY.md` all route reports here today and would need the product links instead. Advisories stay here either way, because an advisory filed on a public product repository would be readable while the flaw is still unfixed.
+Advisories stay here rather than on `panel` or `node`, because an advisory filed on a public product repository would be readable while the flaw is still unfixed. The issue forms here are used by `panel` and `node` as long as neither has its own `.github/ISSUE_TEMPLATE/`.
 
 ## Editing
 

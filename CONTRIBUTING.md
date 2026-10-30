@@ -8,7 +8,7 @@ issues rather than as pull requests.
 
 | | Where |
 | --- | --- |
-| Bug reports and feature requests, for any component | [This repository's issues](https://github.com/nx-panel/.github/issues/new/choose) |
+| Bug reports and feature requests | The issues of [`panel`](https://github.com/nx-panel/panel/issues/new/choose), or of [`node`](https://github.com/nx-panel/node/issues/new/choose) for a problem only on a node |
 | Questions about using NX | [SUPPORT.md](SUPPORT.md) |
 | Security vulnerabilities | [A private advisory](https://github.com/nx-panel/.github/security/advisories/new) — never an issue. See [SECURITY.md](SECURITY.md) |
 | Fixes to the organisation files here | A pull request on this repository |

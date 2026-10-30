@@ -1,6 +1,6 @@
-# The Panel's and the Node's source is private, so blank issues stay enabled: the
-# forms above cover the common cases, but this tracker is the only public place
-# to reach the project and a report that fits none of them should still land.
+# The forms here are the default for panel and node, whose issues are the
+# public place to reach the project, so blank issues stay enabled: the forms
+# cover the common cases, but a report that fits none of them should still land.
 blank_issues_enabled: true
 contact_links:
   - name: Report a security vulnerability

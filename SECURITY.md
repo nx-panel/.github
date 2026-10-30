@@ -12,9 +12,9 @@ the container images and the subscription pages. Reporting it here rather than
 anywhere else keeps the report private until a fix exists, and keeps it that way
 even once the product repositories are opened up.
 
-Please do **not** open a normal issue for a security problem. This repository's
-issue tracker is public, and an issue is public from the moment it is created —
-there is no way to put that back.
+Please do **not** open a normal issue for a security problem. Issue trackers
+are public, and an issue is public from the moment it is created — there is no
+way to put that back.
 
 If GitHub advisories are unavailable to you, open a public issue that says only
 that you have a security report and how to reach you privately — no details.

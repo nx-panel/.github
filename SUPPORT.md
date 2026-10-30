@@ -1,17 +1,17 @@
 # Getting help
 
-The Panel's and the Node's source is private, so **[this repository's issue
-tracker](https://github.com/nx-panel/.github/issues) is where questions and
-bug reports about the Panel and the Node go**. There is nowhere else to file
-them; the tracker here is not only for the organisation files.
+Questions and bug reports go to the issues of the public repositories:
+**[`panel`](https://github.com/nx-panel/panel/issues/new/choose)** for the Panel, the installer, subscriptions and
+anything you are not sure about, and **[`node`](https://github.com/nx-panel/node/issues/new/choose)** for a problem that is
+only on a node.
 
 Pick the route that matches what you have:
 
 | You have | Go to |
 | --- | --- |
-| A question about installing, configuring or using NX | [Open an issue](https://github.com/nx-panel/.github/issues/new/choose) and pick **Question**, or read [the documentation](https://docs.nx-panel.org) |
-| Something that looks broken | [Open a bug report](https://github.com/nx-panel/.github/issues/new/choose) |
-| An idea for something NX should do | [Open a feature request](https://github.com/nx-panel/.github/issues/new/choose) |
+| A question about installing, configuring or using NX | Read [the documentation](https://docs.nx-panel.org), or [open an issue](https://github.com/nx-panel/panel/issues/new/choose) and pick **Question** |
+| Something that looks broken | A bug report on [`panel`](https://github.com/nx-panel/panel/issues/new/choose), or on [`node`](https://github.com/nx-panel/node/issues/new/choose) when only a node is affected |
+| An idea for something NX should do | [A feature request on `panel`](https://github.com/nx-panel/panel/issues/new/choose) |
 | A security vulnerability | **Not an issue** — [open a private advisory](https://github.com/nx-panel/.github/security/advisories/new). See [SECURITY.md](SECURITY.md) |
 | A licensing or purchasing question | The **License** page in the Panel admin UI, visible to the main admin, has the current contact route |
 
